@@ -56,3 +56,21 @@ java.lang.Error
 
 java.util.ArrayList
 java.util.HashMap
+
+
+
+## 第一个java程序
+vim HelloWorld.java(文件名需与类名一致)
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+$ javac HelloWorld.java   将 java 源文件编译为 class 字节码文件 (HelloWorld.class)
+$ java HelloWorld  java文件中的类名
+
+
+## 
