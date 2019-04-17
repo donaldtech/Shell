@@ -44,3 +44,15 @@ class Application {
 java.lang        String, StringBuilder, Object
 java.io/net/nio  操作系统，文件，网络IO的类
 java/javax.sql   访问JDBC的类
+
+java.lang包
+java,lang.Object类
+
+java.lang.String类
+java.lang.Number
+
+java.lang.Exception
+java.lang.Error
+
+java.util.ArrayList
+java.util.HashMap
