@@ -62,15 +62,65 @@ java.util.HashMap
 ## 第一个java程序
 vim HelloWorld.java(文件名需与类名一致)
 ```
-public class HelloWorld {
-    public static void main(String[] args) {
+public class HelloWorld {  
+    public static void main(String[] args) { //主方法入口：所有的 Java 程序由 public static void main(String []args) 方法开始执行
         System.out.println("Hello World");
     }
 }
+
+//类名大大大
+//方法名小大大
+关键字
+
+访问控制	private	私有的 / protected	受保护的 / public	公共的
+
+类、方法和变量修饰符	abstract	声明抽象 / class	类 / extends	扩充,继承 / final	最终值,不可改变的  implements	实现（接口） / interface	接口 / native	本地，原生方法（非 Java 实现）/ new	新,创建 / static	静态
+
+包相关	import	引入 / package	包
+
+变量引用	super	父类,超类 / this	本类 / void	无返回值
 ```
 
 $ javac HelloWorld.java   将 java 源文件编译为 class 字节码文件 (HelloWorld.class)
 $ java HelloWorld  java文件中的类名
 
 
-## 
+## 基础语法
+### 对象和类
+```
+类
+public class Dog{
+  String breed;
+  int age;
+  String color;
+  void barking(){
+  }
+ 
+  void hungry(){
+  }
+ 
+  void sleeping(){
+  }
+}
+```
+### 基本数据类型
+### 变量类型
+### 修饰符
+### 运算符
+### 循环结构
+### 条件语句
+### switch case
+### Number Math类
+### Character类
+### String类
+### StringBuffer
+### 数组
+### 日期时间
+### 正则表达式
+### 方法
+### Stream File IO
+### Scanner类
+### 异常处理
+## 面向对象
+
+## 高级编程
