@@ -71,11 +71,22 @@ public class HelloWorld {
     }
 }
 
-//类名大大大
-//方法名小大大
-关键字
+## 定义包和类
+将类放入包中
+访问控制	private私有的 / protected受保护的 / public公共的
+非访问控制 final最终的，禁止其他类继承
+类名大大大
+package com.example.package_name;
+public final calss ThisIsTheFirstClass {
+}
 
-访问控制	private	私有的 / protected	受保护的 / public	公共的
+## 导入类
+1.全限定类名
+java.util.ArrayList list = new java.util.ArrayList();
+
+2.import java.util.ArrayList;
+ArrayList list = new ArrayList();
+
 
 类、方法和变量修饰符	abstract	声明抽象 / class	类 / extends	扩充,继承 / final	最终值,不可改变的  implements	实现（接口） / interface	接口 / native	本地，原生方法（非 Java 实现）/ new	新,创建 / static	静态
 
