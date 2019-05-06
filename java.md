@@ -1,4 +1,5 @@
 ## JDK
+```
 JDK>JRE>JVM实例
 Oracle JDK 8 / OpenJDK 8 / IBM J9 JDK 8
 下载 
@@ -23,9 +24,10 @@ bin-可执行命令
      jmc
 include-供C语言编译器使用的头文件
 lib-库
-
+```
 
 ## 用包组织类
+```
 同一包中的类构成了一个命名空间
 包         包中的类
 basket     Basket,BasketLine-describe sth
@@ -36,9 +38,10 @@ package com.example.jvm_university.webprogramming;
 class Application {
 }
 全限定类名com.example.jvm_university.webprogramming.Application
-
+````
 
 ## 类库=API
+```
 类库中的所有类放在包（java...  javax.... org.xml com.oracle...）中
 包               类库中的类
 java.lang        String, StringBuilder, Object
@@ -56,7 +59,7 @@ java.lang.Error
 
 java.util.ArrayList
 java.util.HashMap
-
+```
 
 
 ## 第一个java程序
@@ -79,11 +82,11 @@ public class HelloWorld {
 包相关	import	引入 / package	包
 
 变量引用	super	父类,超类 / this	本类 / void	无返回值
-```
+
 
 $ javac HelloWorld.java   将 java 源文件编译为 class 字节码文件 (HelloWorld.class)
 $ java HelloWorld  java文件中的类名
-
+```
 
 ## 基础语法
 ### 对象和类
