@@ -78,6 +78,46 @@ public class HelloWorld {
 类名大大大
 package com.example.package_name;
 public final calss ThisIsTheFirstClass {
+  访问控制	private私有的 / protected受保护的 / public公共的
+  static静态的，没有类的实例也能访问
+  final,不能重写；作用于变量时，变量成了常量
+  public static String staticVaribale = "haha";
+  public final static String STATICVARIABLE = "xixi";
+  
+  
+  可定义方法的不同版本
+  
+  构造函数，创建类的时候被调用，命名于类相同
+  public class ClassWithConstructor {
+      public ClassWithConstructor(int a, int b) {
+      }
+  }
+  默认隐式生产构造函数
+      public ClassWithConstructor() { }
+      
+      
+  终结方法finalize()在对象被垃圾收集器收集时被JVM调用
+}
+
+#### 继承扩展类
+class ParentClass {
+  void aMethod() {
+  }
+}
+
+class SubClass extends ParentClass {
+  访问父类成员，用super
+  super.aMethod();
+}
+
+#### 抽象类可以被扩展，不能实例化
+public abstarct class AbstartcClass {
+  abstract public void aMethod();
+}
+
+#### 接口
+interface Interface1 {
+  void method1();
 }
 
 ## 导入类
@@ -87,12 +127,9 @@ java.util.ArrayList list = new java.util.ArrayList();
 2.import java.util.ArrayList;
 ArrayList list = new ArrayList();
 
+ClassWithConstructor example = new ClassWithConstructor(1,2);  //使用构造函数
 
-类、方法和变量修饰符	abstract	声明抽象 / class	类 / extends	扩充,继承 / final	最终值,不可改变的  implements	实现（接口） / interface	接口 / native	本地，原生方法（非 Java 实现）/ new	新,创建 / static	静态
 
-包相关	import	引入 / package	包
-
-变量引用	super	父类,超类 / this	本类 / void	无返回值
 
 
 $ javac HelloWorld.java   将 java 源文件编译为 class 字节码文件 (HelloWorld.class)
